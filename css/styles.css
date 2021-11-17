@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: #000016;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+    font-size: 16em;
+}
+
+#btn {
+    background-color: #0f0;
+    width: 10em;
+    height: 3em;
+    font-size: 20px;
+    border: none;
+    transition: box-shadow .48s;
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 3px 3px 4px #fff;
+}
